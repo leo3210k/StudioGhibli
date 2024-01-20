@@ -94,3 +94,8 @@ html {
 .watch-now {
   background-color: var(--wewak);
 }
+
+.play {
+  width: 15px;
+  height: 15px;
+}
