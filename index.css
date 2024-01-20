@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Andada Pro', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 html {
@@ -45,5 +47,14 @@ html {
 
 .content {
   width: 100vw;
-  height: 85vh;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
