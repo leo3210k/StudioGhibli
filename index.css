@@ -117,3 +117,8 @@ html {
   border: 1px solid var(--wewak);
   border-radius: 5px;
 }
+
+.ghosts {
+  position: relative;
+  align-self: center;
+}
