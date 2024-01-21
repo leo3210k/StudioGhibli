@@ -177,13 +177,65 @@ html {
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
-  .watch-trailer {
-    background-color: blue;
+  .container {
+    background-position: center;
+    background-size: cover;
   }
-}
 
-@media (max-width: 599px) {
+  .header {
+    height: 13vh;
+  }
+
+  .logo {
+    width: 25vw;
+  }
+
+  .social-medias {
+    display: none;
+  }
+
+  .content {
+    height: 72vh;
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+
+  .movie-director {
+    font-size: 1rem;
+  }
+
+  .movie-name {
+    font-size: 2.5rem;
+  }
+
+  .movie-description {
+    font-size: 1.1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .play {
+    width: 25px;
+    height: 25px;
+  }
+
+  .watch-now {
+    padding: 16px 20px;
+    justify-content: center;
+  }
+
   .watch-trailer {
-    background-color: green;
+    width: 100%;
+    margin-top: 4vh;
+    margin-left: 0;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ghosts {
+    width: 52vw;
   }
 }
