@@ -143,12 +143,36 @@ html {
 
   .buttons {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
   }
 
-  .watch-now {}
+  .play {
+    width: 25px;
+    height: 25px;
+  }
+
+  .watch-now {
+    width: 100%;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+  }
 
   .watch-trailer {
+    width: 100%;
     margin-top: 40px;
+    margin-left: 0;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    border-width: 3px;
+  }
+
+  .ghosts {
+    width: 50vw;
   }
 }
 
