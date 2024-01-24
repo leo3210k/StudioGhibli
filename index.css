@@ -52,6 +52,10 @@ html {
   background-color: #FFFFFF33;
 }
 
+.logo {
+  z-index: 1;
+}
+
 .logo:hover {
   cursor: pointer;
 }
