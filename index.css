@@ -7,8 +7,10 @@
 }
 
 :root {
+  --black: rgb(0, 0, 0);
   --white: rgb(255, 255, 255);
   --wewak: rgb(241, 165, 177);
+  --wewak-darker: rgb(241, 140, 177);
 }
 
 html {
@@ -97,11 +99,15 @@ html {
   display: flex;
   align-items: center;
 
-  color: black;
+  color: var(--black);
   font-weight: 600;
   border-radius: 5px;
   background-color: var(--wewak);
   cursor: pointer;
+}
+
+.watch-now:hover {
+  background-color: var(--wewak-darker);
 }
 
 .play {
@@ -119,6 +125,11 @@ html {
   border: 1px solid var(--wewak);
   border-radius: 5px;
   cursor: pointer;
+}
+
+.watch-trailer:hover {
+  color: var(--black);
+  background-color: var(--wewak);
 }
 
 .ghosts {
