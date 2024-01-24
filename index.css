@@ -50,6 +50,9 @@ html {
   border: 1px solid var(--white);
   border-radius: 50px;
   background-color: #FFFFFF33;
+}
+
+.logo:hover {
   cursor: pointer;
 }
 
