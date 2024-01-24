@@ -193,7 +193,7 @@ html {
   }
 }
 
-@media (min-width: 600px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .container {
     background-position: center;
     background-size: cover;
