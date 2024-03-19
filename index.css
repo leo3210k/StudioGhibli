@@ -13,11 +13,6 @@
   --wewak-darker: rgb(241, 140, 177);
 }
 
-html {
-  width: 100vw;
-  height: 100vh;
-}
-
 .container {
   width: 100vw;
   height: 100vh;
