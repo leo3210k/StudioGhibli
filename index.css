@@ -209,7 +209,7 @@
   }
 
   .content {
-    height: 72vh;
+    margin: 3rem 2rem 0 2rem;
     flex-direction: column;
     flex-flow: column-reverse;
   }
