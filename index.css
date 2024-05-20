@@ -249,3 +249,32 @@
     width: 52vw;
   }
 }
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .header {
+    height: auto;
+    margin-top: 1rem;
+  }
+
+  .content {
+    height: auto;
+  }
+
+  .info {
+    margin-bottom: 2rem;
+  }
+
+  .movie-name {
+    margin-bottom: 16px;
+    line-height: 38px;
+  }
+  
+  .movie-description {
+    margin-bottom: 3vh;
+    line-height: 1.4rem;
+  }
+
+  .ghosts {
+    width: 40vw;
+  }
+}
